@@ -16,7 +16,7 @@ const Header = () => {
                     </button>
                 </div>
                 <div className="header__search">
-                    <img src={search} alt="" />
+                    <img src={search} alt="Buscar" />
                     <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
                         placeholder="O que você quer ouvir?" value="" />
                 </div>
