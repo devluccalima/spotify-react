@@ -8,19 +8,19 @@ const Sidebar = () => {
         <div className="sidebar">
             <nav className="sidebar__navigation">
                 <div className="logo">
-                    <a href="a">
+                    <a href="">
                         <img src={logoSpotify} alt="Logo" />
                     </a>
                 </div>
                 <ul>
                     <li>
-                        <a href="a">
+                        <a href="">
                             <span><FontAwesomeIcon icon={faHome} /></span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
-                        <a href="a">
+                        <a href="">
                             <span><FontAwesomeIcon icon={faSearch} /></span>
                             <span>Buscar</span>
                         </a>
@@ -45,7 +45,7 @@ const Sidebar = () => {
                     </div>
                 </section>
                 <div className="cookies">
-                    <a href="a">Cookies</a>
+                    <a href="">Cookies</a>
                 </div>
                 <div className="languages">
                     <button className="languages__button">
